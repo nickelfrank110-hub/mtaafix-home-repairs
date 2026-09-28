@@ -1,0 +1,133 @@
+img {
+    max-width:90%;
+    height: auto; 
+    border-radius:9px;
+}
+*{
+    font-family:lato, Arial, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background:rgb(230 230 230);
+    color:rgb(10 10 10);
+    font-family:lato, Arial, sans-serif;
+    line-height:1.4;
+    margin:10px;
+}
+h1{
+    font-size:2.0rem;
+    font-weight:900;
+    line-height:1.2;
+    margin:10px auto;
+}
+h2 {
+    font-size:1.7rem;
+    font-weight:800;
+    line-height:1.15;
+    margin:12px;
+}
+h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.0;
+    margin: 9px 12px;
+}
+p {
+    font-weight:400;
+}
+a {
+    color: #2900b1;
+    text-decoration: none; 
+    font-weight:500;  
+}
+a:hover {
+    color:#54238b;
+}
+
+a:focus {
+    color:#b425df;
+}
+section {
+    padding:12px;
+}
+.card {
+    border:3px solid #6aa2ff;
+    padding:8px;
+    margin:19px 5px;
+    border-radius: 9px;
+    background: #8083ff2e;
+}
+.service-card img {
+    width: 100%;
+    height: auto;
+}
+header {
+    background: #9c95ff;
+    padding: 12px;
+    border-radius: 9px;
+}
+header nav {
+    margin: 15px 0;
+    text-align: left;
+}
+header nav a {
+    margin: 0 5px;
+}
+header h3 {
+    font-size:1.39rem;
+    font-weight:750;
+    margin: 15px 12px
+}
+.contact-link {
+    margin:9px 0;
+    font-weight:500
+}
+.home img {
+    width:90%;
+}
+.home p {
+    max-width:500px;
+}
+form {
+    background:#768ceb9b;
+    padding:12px;
+    border:3px solid #ff5e00;
+    border-radius:5px;
+    margin:15px 12px;
+}
+form label {
+    display: block;
+    margin:5px;
+}
+form select{
+    width:135px;
+    padding: 5px;
+    border-radius:3px;
+    border:2px solid #4077ff9a;
+}
+form textarea{
+    width:250px;
+    max-width:100%;
+    height:109px;
+    padding:5px;
+    border-radius:3px;
+    border:2px solid #4077ff9a;
+}
+form select:focus,
+form textarea:focus {
+    transform: translate(2px, 3px);
+}
+form input:focus {
+    transform: translate(2px, 3px);
+    border: 2px solid #4077ff;
+    outline: none;
+}
+footer {
+    text-align: center;
+    border-top:2px dashed #4077ff;
+    background:rgb(255 255 255);
+    margin-bottom:6px;
+}
+footer nav a{
+    margin:5px;
+}
